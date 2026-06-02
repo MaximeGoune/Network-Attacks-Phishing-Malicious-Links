@@ -81,7 +81,12 @@ In the Metasploit console, run Python HTTP server to transfer the payload from t
 
 On the Generic Server, download payload from the Social Engineering Toolkit Server and store it in the Samba shared directory (/home/share/) by running the following command:
 
-<img src="https://imgur.com/rifuX9f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/DaLUFFB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 Switch Back to Victim Server and open the Run dialog by searching for Run in the Start Menu.
+<img src="https://imgur.com/jbkQmVR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+
+
