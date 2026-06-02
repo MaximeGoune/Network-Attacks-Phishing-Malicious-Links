@@ -28,17 +28,32 @@ Type 1 to select Web Templates and load a pre-configured phishing site.
 When prompted for the POST back in Harvester/Tabnabbing, enter the IP address or hostname:ttacker.server.
 
 Choose a template from the menu, type 2 to select Google, to clone the corresponding login page.
-<img src="https://imgur.com/UlOgIKx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/pJcWPsx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-Return to the Connections page in the browser, and open the Victim Server in the new tab.
+This will open the Welcome screen for Microsoft Edge. Follow these prompts in the Microsoft Edge setup screen: - Start without your data - Confirm and continue - confirm and start browsing - Next - Finish
+
 In the Microsoft Edge address bar, enter your cloned site’s URL:
 
-http://attacker.server
+http://attacker.serverNote: This URL points to the credential harvesting page that you set up in the Social Engineering Toolkit. Attackers usually distribute similar links through spam emails, malicious ads, or direct messages.
+
+Enter the following credentials in the fake login form:
+
+Username: user@globomantics.com
+
+Password:Globo@12345
+<img src="https://imgur.com/Jqq8nir.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+Switch Back to Social Engineering Toolkit Server and review the output logs in the terminal.Note: The Social Engineering Toolkit captures every POST request containing credentials, displaying exactly what users typed into the cloned site.
+
+<img src="https://imgur.com/RWeGQoD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 
 
 
 Crafting and Executing a Malicious File
+
 
 In the Web Attack Module, type 99 and press Enter to return to the Main Menu.
 
